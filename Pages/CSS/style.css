@@ -51,7 +51,6 @@ button {
 
 }
 
-
 table {
     border: 1px solid;
     width: 70%;
@@ -61,7 +60,7 @@ table {
     font-size: 18px;
 }
 th, td {
-    border: 1px solid;
+    border: 0px solid;
     text-align: center;
   }
   #tr1{
