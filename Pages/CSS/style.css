@@ -1,0 +1,69 @@
+.body{
+    background-color:aliceblue;  
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    text-align: center; 
+    margin-bottom: 20px;
+    
+}
+
+div {
+    
+    background-color: aqua;
+    width: 500px;
+    height: 350px;
+    border: 15px solid aqua;
+    margin: 0 auto;
+     }
+
+.div2{
+        background-color: aqua;
+        width: 500px;
+        height: 450px;
+        border: 15px solid aqua;
+        margin: 0 auto;
+     }
+
+  input[type=text], input[type=password], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    margin: 6px 0; 
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label {
+    font-size: 18px; 
+}
+button {
+    width: 70%; 
+    height: 40px; 
+    font-size: 25px;
+    margin: 0 auto; 
+    display: block; 
+
+}
+
+
+table {
+    border: 1px solid;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto; 
+    text-align: center;
+    font-size: 18px;
+}
+th, td {
+    border: 1px solid;
+    text-align: center;
+  }
+  #tr1{
+    background-color: aqua;
+  }
