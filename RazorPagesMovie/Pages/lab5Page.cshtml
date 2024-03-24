@@ -17,7 +17,8 @@
               <li>Email support</li>
               <li>Help center access</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+            <button  type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up free</button>
+             
           </div>
         </div>
       </div>
@@ -27,7 +28,7 @@
             <h4 class="my-0 fw-normal">Pro</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+            <h1  class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>20 users included</li>
               <li>10 GB of storage</li>
@@ -46,7 +47,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
+              <li >30 users included</li>
               <li>15 GB of storage</li>
               <li>Phone and email support</li>
               <li>Help center access</li>
@@ -57,7 +58,6 @@
       </div>
     </div>
 
-    <h2 class="display-6 text-center mb-4">Compare plans</h2>
 
     <div class="table-responsive">
       <table class="table text-center">
@@ -69,7 +69,7 @@
             <th style="width: 22%;">Enterprise</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody id="hiding_text2">
           <tr>
             <th scope="row" class="text-start">Public</th>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
@@ -84,7 +84,7 @@
           </tr>
         </tbody>
 
-        <tbody>
+        <tbody id="hiding_text">
           <tr>
             <th scope="row" class="text-start">Permissions</th>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
@@ -112,4 +112,17 @@
         </tbody>
       </table>
     </div>
+     <button onclick="Displayfunc()" type="button" >Hide or Show</button>
+      <button onclick="Show_formFunc()" type="button" >Show Calculate Form</button>
+    <div>
+        <br><br><h2 id="FormHeader" class="display-5 fw-bold text-body-emphasis" style="display: none;">Addition Form</h2>
+            <form id="Form" style="display: none;">
+                <label>Enter first number:</label><br>
+                <input type="number" id="firstNum" name="firstNum"><br>
+                <label>Enter second number:</label><br>
+                <input type="number" id="secondNum" name="secondNum"><br><br>
+                <input onclick="CalculateSum()" type="button" value="Calculate Sum"><br><br>
+            </form> 
+            <div id="Sum" class="Sum"></div>
+      </div>
   </main>
